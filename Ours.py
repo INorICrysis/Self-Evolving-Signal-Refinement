@@ -262,7 +262,7 @@ def DTK(
             # 计算监督损失
             sup_l_loss = sup_criterion(sup_l_logist, masks)
 
-            # 软标签“知识迁移”
+            # 软标签
             con_u_loss_soft_KL = softmax_KL_loss(con_u_logist, sup_u_logist.detach(), threshold=threshold)
             # sup_u_loss_soft_KL = softmax_KL_loss(sup_u_logist, con_u_logist.detach(), threshold=threshold)
             # sup_u_loss_soft_KL = softmax_KL_loss(
