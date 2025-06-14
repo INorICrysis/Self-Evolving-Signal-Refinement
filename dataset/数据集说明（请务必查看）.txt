@@ -1,0 +1,15 @@
+若需重复实验，请从以下网盘链接下载完整数据集
+
+ https://pan.baidu.com/s/15gkUYRP3yKO-W8mfTApPuA?pwd=jihh 
+提取码: jihh 
+
+实验使用4张NVIDIA TITANX GPU进行实验
+请保证显存至少大于15GB
+或自行缩小代码中batch_size以减少显存占用
+为保证代码简洁易于运行，代码未设置命令行参数输入方式
+
+数据集引用，感谢数据集开源团队！
+
+[1] Cui, W., Wang, Y., Zhang, Q., Zhou, H., Song, D., Zuo, X., ... & Zeng, L. (2022, August). CTooth: a fully annotated 3d dataset and benchmark for tooth volume segmentation on cone beam computed tomography images. In Intelligent Robotics and Applications: 15th International Conference, ICIRA 2022, Harbin, China, August 1–3, 2022, Proceedings, Part IV (pp. 191-200). Cham: Springer International Publishing.
+
+[2] Cui, W., Wang, Y., Li, Y., Song, D., Zuo, X., Wang, J., ... & Zhang, Q. (2022, September). CTooth+: A Large-Scale Dental Cone Beam Computed Tomography Dataset and Benchmark for Tooth Volume Segmentation. In Data Augmentation, Labelling, and Imperfections: Second MICCAI Workshop, DALI 2022, Held in Conjunction with MICCAI 2022, Singapore, September 22, 2022, Proceedings (pp. 64-73). Cham: Springer Nature Switzerland.
