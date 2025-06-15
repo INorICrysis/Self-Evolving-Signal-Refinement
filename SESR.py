@@ -192,7 +192,7 @@ def merge_logits_by_confidence(con_logits, ema_logits):
 
     return merged_logits
 
-def DTK(
+def SESR(
     sup_model, 
     ema_model,
     con_model, 
@@ -380,7 +380,7 @@ def DTK(
 
 if __name__ == "__main__":
     # 训练模型
-    sup_eval, ema_eval, con_eval = DTK(
+    sup_eval, ema_eval, con_eval = SESR(
         sup_model, 
         ema_model,
         con_model, 
